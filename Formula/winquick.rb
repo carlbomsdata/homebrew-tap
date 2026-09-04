@@ -5,10 +5,10 @@
 #
 # The sha256 below is filled in from dist/*.sha256 after `scripts/release.sh`.
 class Winquick < Formula
-  desc "Run real Windows commands on an Apple Silicon Mac"
+  desc "Run commands inside a real, disposable Windows environment"
   homepage "https://github.com/carlbomsdata/winquick"
-  url "https://github.com/carlbomsdata/winquick/releases/download/v0.3.0/winquick-0.3.0-darwin-arm64.tar.gz"
-  sha256 "ab8914eff97e0c58f78b50a1f6f49e5f3b357ea8849e83fa9fe32f69aaf3e963"
+  url "https://github.com/carlbomsdata/winquick/releases/download/v0.4.0/winquick-0.4.0-darwin-arm64.tar.gz"
+  sha256 "167bc39d0edad7221cf16036e91b02549ee92132940c846baf65e8f9a00fa7bc"
   license "Apache-2.0"
 
   # Apple Silicon only: the guest is ARM64 Windows and acceleration comes from
